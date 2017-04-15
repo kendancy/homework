@@ -1,0 +1,73 @@
+<!-- style.css -->
+div {
+	text-align:right;
+	width:30%;
+	background: pink;
+}
+
+.heading {
+	width:70%;
+	color: white;
+	background-color: orange;
+}
+
+#instructions {
+	width:70%;
+	padding: 40px;
+	border:40px;
+	margin:20px;
+	font-size: 20px;
+	background-color: pink;
+}
+
+#answer {
+	float: left;
+	width:30%;
+	height:200px;
+	padding:0px 0px 100px 0px;
+	margin:20px;
+	text-align: left;
+	font-size:50px;
+	background-color: green;
+
+}
+
+#wins_losses {
+	position:relative;
+	left: 400px;
+	height: 200px;
+	width: 200px;
+	padding:20px 10px 20px 10px;
+	text-align: center;
+	font-size:30px;
+	margin:10px;
+	background-color: cyan;
+}
+
+.rock {
+	width:20%;
+	height:200px;
+	padding:0px 0px 50px 0px;
+	margin:20px;
+	text-align: left;
+	font-size:50px;
+	background-color: white;
+}
+
+#total_score {
+	width: 40%;
+	color: white;
+	padding:10px 0px 10px 0px;
+	background-color: teal;
+}
+
+#score {
+	width: 40%;
+	color: white;
+	height:200px;
+	padding:10px 0px 10px 0px;
+	margin:20px;
+	text-align: left;
+	font-size: 50px;
+	background-color: teal;
+}
