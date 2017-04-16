@@ -1,8 +1,13 @@
 <!-- style.css -->
+body {
+	background-attachment: url("assets/images/rock_1.png");
+	background-repeat: repeat-y;
+}
+*/
 div {
-	text-align:right;
-	width:30%;
-	background: pink;
+	text-align: center;
+	/*width:30%;*/
+	background-color: grey;
 }
 
 .heading {
@@ -21,8 +26,7 @@ div {
 }
 
 #answer {
-	float: left;
-	width:30%;
+	width:40%;
 	height:200px;
 	padding:0px 0px 100px 0px;
 	margin:20px;
@@ -33,22 +37,23 @@ div {
 }
 
 #wins_losses {
-	position:relative;
+	width: 35%;
+	top: 10px;
 	left: 400px;
-	height: 200px;
-	width: 200px;
-	padding:20px 10px 20px 10px;
-	text-align: center;
+	/*left: 200px;*/
+	/*height: 200px;*/
+	/*padding:20px 10px 20px 10px;*/
+	/*text-align: center;*/
 	font-size:30px;
-	margin:10px;
+	/*margin:50px 10px 10px 10px*/
 	background-color: cyan;
 }
 
 .rock {
 	width:20%;
-	height:200px;
+	height:100px;
 	padding:0px 0px 50px 0px;
-	margin:20px;
+	margin:20px 0px 0px 0px;
 	text-align: left;
 	font-size:50px;
 	background-color: white;
